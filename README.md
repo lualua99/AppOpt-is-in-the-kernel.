@@ -126,7 +126,7 @@ AppOpt本身不包含SELinux规则，而是通过KernelSU的SELinux规则管理�
 
 开发者需要在KernelSU的SELinux规则文件中添加以下规则，以确保AppOpt正常运行：
 
-**文件路径**：`/home/builder/kernel_xiaomi_sm8250/KernelSU/kernel/selinux/rules.c`
+**文件路径**：`./KernelSU/kernel/selinux/rules.c`
 
 **需要添加的规则**：
 
