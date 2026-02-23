@@ -1,0 +1,9 @@
+config APPOPT
+	tristate "AppOpt - Application CPU Affinity Optimizer"
+	default y
+	help
+	  AppOpt is a kernel module that optimizes CPU affinity for applications
+	  based on configurable rules. It allows setting CPU masks for specific
+	  applications and their threads, improving performance and power efficiency.
+
+	  If unsure, say Y to build into kernel.
