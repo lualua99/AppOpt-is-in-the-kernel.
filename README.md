@@ -216,8 +216,6 @@ logcat | grep avc:
 - 完整包名支持
 - KernelSU SELinux集成
 
-## 开发者信息
-
 ### 模块参数
 
 - `appopt_interval`：检查间隔（秒），默认值：2
@@ -228,7 +226,6 @@ logcat | grep avc:
 drivers/appopt/
 ├── appopt_core.c     # 核心实现
 ├── Kbuild            # 构建配置
-└── README.md         # 本文档
 ```
 
 ### 编译选项
